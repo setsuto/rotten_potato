@@ -1,0 +1,113 @@
+.topic {
+  &__ul {
+    list-style: none;
+  }
+
+  &__li {
+    font-size: 1.2rem;
+    // padding: 1rem;
+    margin-bottom: 10px;
+    border-bottom: $border;
+  }
+
+  &__link {
+    position: relative;
+    display: flex;
+    // flex-wrap: wrap;
+    padding: 0 0 40px 0;
+    margin: 40px 0 0 0;
+  }
+
+  &__picture {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    max-width: 200px;
+    height: 200px;
+
+    @include respondDown(phone) {
+      height: 400px;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  &__preview {
+    width: 430px;
+    max-width: 430px;
+    padding: 0 0 0 40px;
+    position: static;
+
+    @include respondDown(phone) {
+      position: absolute;
+      bottom: 30px;
+      background: $cWhite;
+      width: 300px;
+      padding: 30px 10px 10px 40px;
+    }
+
+    &--date {
+      color: inherit;
+      @extend .font-md;
+      margin: 0 10px 0 0;
+      display: inline-block;
+      line-height: 1.5;
+    }
+
+    &--category {
+      display: inline-block;
+      @extend .font-sm;
+      color: $cWhite;
+      background: $cBgBlack;
+      padding: 0 4px;
+      text-transform: uppercase;
+    }
+
+    &--title {
+      display: block;
+      @extend .font-lr;
+      line-height: 26px;
+      margin-top: 15px;
+      // font-weight: bold;
+    }
+
+    &--description {
+      font-size: 12px;
+      line-height: 18px;
+      margin-top: 15px;
+
+      p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: relative;
+      }
+
+      a {
+        color: $cBlue-1;
+        display: block;
+        font-size: 14px;
+        margin-top: 7px;
+        text-decoration: underline;
+      }
+    }
+
+    &--share {
+      margin: 40px 0 0 0;
+      display: flex;
+      align-items: center;
+
+      a {
+        margin: 0 10px 0 0;
+        padding: 0 10px 0 0;
+        border-right: 1px solid #c0c0c2;
+        height: 16px;
+        display: inline-flex;
+        svg {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}

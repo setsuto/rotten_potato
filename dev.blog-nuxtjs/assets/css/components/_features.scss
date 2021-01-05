@@ -1,0 +1,59 @@
+.features {
+  // @extend .content-width;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 8rem 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: $cWhite;
+  position: relative;
+  // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: $cBgBlack;
+  &__box {
+    // height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: calc(100% / 3);
+    @include respondDown(tab-port) {
+      flex-basis: 100%;
+    }
+
+    &--number {
+      font-size: 64px;
+      @extend .mb-sm;
+    }
+
+    &--heading {
+      @extend .font-lg;
+      @extend .mb-md;
+      text-transform: uppercase;
+      line-height: 28px;
+    }
+
+    &--paragraph {
+      @extend .font-md;
+      max-width: 280px;
+      margin: 0 auto;
+      @extend .mb-md;
+    }
+  }
+}
+
+.features::after {
+  content: "CONCEPT";
+  font-size: 3rem;
+  color: $cBlack;
+  font-weight: bold;
+  padding:0 1rem;
+  display: inline-block;
+  position: absolute;
+  background: $cWhite;
+  top: 0;
+  left: 0;
+}
+
+
+

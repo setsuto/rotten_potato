@@ -1,0 +1,182 @@
+/* --------------------------------------------
+  大枠
+----------------------------------------------- */
+
+.wrapper {
+  padding-top: 50px;
+  @extend .mb-lg;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @include respondDown(tab-port) {
+    flex-direction: column-reverse;
+  }
+}
+
+/* --------------------------------------------
+  HOME-SETION
+----------------------------------------------- */
+.section-hero {
+  @extend .content-width;
+  @extend .mb-md;
+}
+
+.section-story {
+  // margin-top: 60px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(../images/story_bg.jpg);
+  background-position: bottom center;
+  position: relative;
+  @extend .content-width;
+  // @extend .mb-lg;
+  border-bottom: $borderShadow;
+
+}
+
+.section-features {
+  color: $cWhite;
+  margin-top: -8vh;
+  position: relative;
+  @extend .mb-lg;
+
+}
+
+.section-about {
+  background: $cWhite;
+  @extend .content-width;
+  // @extend .mb-lg;
+}
+
+
+.section-news {
+  position: relative;
+  @extend .content-width;
+  margin-bottom: 150px;
+  color: $cBlack;
+}
+
+/* --------------------------------------------
+  BLOG-SETION
+----------------------------------------------- */
+
+
+.section-category {
+  // @extend .content-width;
+  position: relative;
+  // font-family: $famicon;
+  color: $cBlack;
+  background: $cWhite;
+
+  &__container {}
+}
+
+
+
+
+
+
+
+
+
+// .section-feature {
+//   max-width: 1000px;
+//   width: 90%;
+//   margin: 0 auto;
+//   &__container {
+//     // @extend .content-width;
+//     padding: 5rem 0;
+//     justify-content: space-between;
+//     flex-direction: column;
+//     color: $cBlack;
+
+//     @include respond(phone) {
+//       display: flex;
+//       align-items: center;
+//       flex-direction: row;
+//       flex-wrap: wrap;
+//     }
+//   }
+
+//   &__left {
+//     // border-radius: 4px;
+//     color: $cBlack;
+//     padding: 1rem;
+//     flex-basis: 55%;
+//     background: rgba(255, 255, 255, 0.4);
+//     @extend .pb-sm;
+//   }
+
+//   &__right {
+
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     // padding: 1rem;
+//     // background:$cBlack;
+//     position: relative;
+//     flex-basis: 40%;
+//     // margin-left: 3rem;
+//     overflow: hidden;
+//     // @extend .mb-md;
+//     // box-shadow: rgba(19, 125, 35, 0.4) 5px 5px, rgba(104, 166, 220, 0.3) 10px 10px, rgba(198, 66, 180, 0.2) 15px 15px, rgba(19, 11, 16, 0.1) 20px 20px, rgba(144, 20, 53, 0.05) 25px 25px;
+//   }
+// }
+
+/* --------------------------------------------
+  article--sections
+----------------------------------------------- */
+.article {
+  flex-basis: 65%;
+
+  &--header {
+    text-align: center;
+    padding: 1rem 0;
+    background: $cWhite;
+    color: $cBlack;
+  }
+}
+
+/* --------------------------------------------
+  aside--sections
+----------------------------------------------- */
+
+.aside {
+  flex-basis: 28%;
+
+  &--container {}
+
+  &--title {
+    @extend .font-md;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    // @extend .font-lr;
+    text-align: center;
+    padding: 1rem 0 3rem;
+    background: $cWhite;
+    border-bottom: $border;
+    color: $cBlack;
+    text-align: center;
+  }
+}
+
+.sidebar__sale {
+  display: none;
+  @extend .mb-md;
+
+  @include respond(tab-port) {
+    display: block;
+  }
+}
+
+.sidebar__category {
+  @extend .mb-md;
+}
+
+.sidebar__news {
+  background: $cBgGray;
+}
+
+
+
+
+

@@ -1,0 +1,87 @@
+.header {
+  position: relative;
+  // height: 100%;
+  width: 100%;
+  z-index: 1000;
+  background: $cWhite;
+  border-bottom: 1px solid $cGray;
+  // @extend .mb-lg;
+
+  &__container {
+    height: 60px;
+    @extend .content-width;
+    @extend .flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @extend .font-md;
+    margin-right: auto;
+    svg {
+      height: 24px;
+      width: 24px;
+      margin-right: 1rem;
+    }
+  }
+
+  &__search {
+    flex-basis: 40%;
+  }
+
+  &__nav {
+    display: none;
+
+    &--social {
+      display: none;
+      margin-left: 3rem;
+
+      @include respond(phone) {
+        display: block;
+      }
+    }
+
+    @include respond(phone) {
+      display: block;
+    }
+  }
+
+  &__ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__li {
+    line-height: .7;
+    margin-left: 1.5rem;
+  }
+
+  &__link {
+    @extend .font-sm;
+    display: block;
+    color: inherit;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &__gnav {
+    display: block;
+    margin-left: 3rem;
+
+    @include respond(tab-port) {
+      display: none;
+    }
+  }
+
+  &.triggered {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 10px 0 25px -10px rgba(0, 0, 0, 0.5);
+  }
+}

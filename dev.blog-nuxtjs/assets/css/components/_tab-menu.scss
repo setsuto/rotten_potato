@@ -1,0 +1,44 @@
+.tab {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  list-style: none;
+  border-bottom: 1px solid $cGray;
+
+  &__item {
+    border: 1px solid transparent;
+    border-bottom: none;
+    display: inline-block;
+    margin: 0 0 -1px;
+    border-radius: 4px 4px 0 0;
+    flex-basis: calc(100% / 3);
+    text-align: center;
+    transition: all .1s;
+
+    & :hover {
+      
+      border-color: #ccc;
+    }
+
+    a {
+      display: block;
+      font-size: 14px;
+      line-height: 60px;
+    }
+
+    &.active {
+      border-color: #ccc;
+      // background: $cWhite;
+      a {
+        font-size: 1.6rem;
+
+        @include animation($name: upDown-animation,
+        $iteration-count: infinite,
+        $duration: 2s,
+        $timing-function: liner);
+        font-weight: bold;
+      }
+    }
+  }
+}
