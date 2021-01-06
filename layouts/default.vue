@@ -35,6 +35,10 @@
       </template>
     </Header>
     <nuxt />
+              <!-- <infinite-loading ref="infiniteLoading" spinner="spiral" @infinite="infiniteHandler">
+            <span slot="no-more">no more</span>
+            <span slot="no-results">no more results</span>
+          </infinite-loading> -->
     <!-- <keep-alive> -->
     <!-- <component :is="currentComponent"></component> -->
     <!-- </keep-alive> -->

@@ -13,8 +13,9 @@
 
   &__content {
     @extend .content-width;
-    padding: 150px 0;
+    padding: 25rem 0;
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
@@ -30,7 +31,7 @@
   }
 
   &__desc {
-    text-align: center;
+    text-align: justify;
     flex-basis: 48%;
   }
   &__gallery {
@@ -97,7 +98,7 @@
 
   &__footer {
     position: absolute;
-    bottom: 0;
+    bottom: -5%;
     left: 51%;
     transform: translate(-50%, -50%);
     z-index: 2;

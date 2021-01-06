@@ -8,7 +8,7 @@
           <img class="topic__picture--img" :src="work.fields.image.fields.file.url">
         </div>
         <div class="topic__preview">
-          <time class="topic__preview--date">2020/01/04</time>
+          <time class="topic__preview--date">{{ work.sys.updatedAt | moment }}</time>
 
           <nuxt-link :to=" '/category/' + work.fields.category.sys.id ">
             <div class="topic__preview--category">{{ work.fields.category.fields.name }}</div>
@@ -50,8 +50,14 @@
 <style></style>
 
 <script>
+import moment from 'moment';
   export default {
-    props: ['work']
+    props: ['work'],
+        filters: {
+        moment: function (date) {
+            return moment(date).format('YY/MM/DD HH:mm');
+        }
+    }
   }
 
 </script>

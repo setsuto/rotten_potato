@@ -1,21 +1,18 @@
 <template>
-  <div>
+  <div class="mb-md">
     <div class="hero__header">
       <div class="hero__header--title">
         <!-- <span> AND ONE FLEW OVER THE CUCKOO'S NEST</span> -->
         <span>Netflix Movies TOP3(2020)</span>
       </div>
-
-      <slot name="search-box"></slot>
-
     </div>
 
     <hooper :settings="hooperSettings">
       <slide>
-        <div class="hero__title">#3 The Midnight Sky</div>
-        <img src="../assets/images/hero-slider_01.jpg" alt="hero_movie_03" />
+        <div class="hero__title">#2 Chicago 7</div>
+        <img src="../assets/images/hero-slider_03.jpg" alt="hero_movie_03" />
         <div class="hero__description">
-          <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/80244645">(C)Netflix</a>
+          <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81043755">(C)Netflix</a>
           </blockquote>
         </div>
       </slide>
@@ -27,10 +24,12 @@
         </div>
       </slide>
       <slide>
-        <div class="hero__title">#2 Chicago 7</div>
-        <img src="../assets/images/hero-slider_03.jpg" alt="hero_movie_03" />
+                <div class="hero__title">#3 The Midnight Sky</div>
+        <img src="../assets/images/hero-slider_01.jpg" alt="hero_movie_03" />
+
         <div class="hero__description">
-          <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81043755">(C)Netflix</a>
+
+                    <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/80244645">(C)Netflix</a>
           </blockquote>
         </div>
       </slide>

@@ -8,7 +8,7 @@
       <p class="text-center"><a class="text-xs m-1 bg-gray-200 p-1 rounded" href="">{{ work.fields.category.fields.name }}</a></p>
     </nuxt-link>
     <div class="flex justify-center mb-5">
-      <li v-for="tag in work.fields.tag" :key="tag.sys.id" class="list-none text-xs m-1 bg-gray-200 p-1 rounded">
+      <li v-for="tag in work.fields.tag" :key="tag.sys.id" class="cursor-pointer list-none text-xs m-1 bg-gray-200 p-1 rounded" @click="$router.push('/tag/'+tag.sys.id)">
         {{ tag.fields.name }}
       </li>
     </div>
@@ -78,19 +78,19 @@
 
 .content h1 {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin: 25px 0;
   border-bottom: 2px solid #000;
 }
 .content h2 {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 20px 0;
   border-bottom: 1px solid #eee;
 }
 .content h3 {
   font-weight: bold;
-  font-size: .8rem;
+  font-size: 1.6rem;
   margin: 15px 0;
 }
 .content a {

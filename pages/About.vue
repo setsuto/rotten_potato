@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="content-width">
+    
     <section class="section-story">
       <div class="story" id="story">
         <div class="story__content">

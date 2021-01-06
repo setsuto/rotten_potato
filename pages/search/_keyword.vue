@@ -4,7 +4,7 @@
     <div class="wrapper">
       <article class="article">
         <section class="section-topic ">
-          <h2 class="section-title mb-md under-line">検索結果</h2>
+          <h2 class="section-title mb-md under-line">検索結果&nbsp;{{ works.length }}件</h2>
           <Item v-for="work in works" :key="work.sys.id" :work="work"></Item>
           <!-- <infinite-loading ref="infiniteLoading" spinner="spiral" @infinite="infiniteHandler">
             <span slot="no-more">no more</span>

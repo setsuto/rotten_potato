@@ -533,7 +533,7 @@ a:active {
   margin-bottom: 32px !important;
 }
 
-.mb-lg, .wrapper, .section-features {
+.mb-lg, .wrapper, .section-story, .section-features {
   margin-bottom: 80px !important;
 }
 
@@ -549,7 +549,7 @@ a:active {
   border-bottom: 1px solid #eee;
 }
 
-.content-width, .modal, .story__content, .header__container, .footer__inner, .section-hero, .section-story, .section-about, .section-news {
+.content-width, .modal, .story__content, .header__container, .footer__inner, .section-hero, .section-news {
   width: 90%;
   margin: 0 auto;
   max-width: 1100px;
@@ -1382,12 +1382,13 @@ a:active {
 
 .news__li {
   position: relative;
-  -ms-flex-preferred-size: calc((100% - 20px) / 2);
-      flex-basis: calc((100% - 20px) / 2);
-  margin-right: 20px;
+  -ms-flex-preferred-size: calc((100% - 0px) / 4);
+      flex-basis: calc((100% - 0px) / 4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   -webkit-box-pack: start;
@@ -1395,6 +1396,13 @@ a:active {
           justify-content: flex-start;
   padding-bottom: 10px;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 37.4em) {
+  .news__li {
+    -ms-flex-preferred-size: calc(100% / 2);
+        flex-basis: calc(100% / 2);
+  }
 }
 
 .news__li::before {
@@ -1434,8 +1442,6 @@ a:active {
 }
 
 .news__text {
-  -ms-flex-preferred-size: calc(100% - 210px);
-      flex-basis: calc(100% - 210px);
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -1495,21 +1501,7 @@ a:active {
 
 .hero__header {
   padding: 20px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  text-align: center;
 }
 
 .hero__header--icon {
@@ -1751,10 +1743,13 @@ a:active {
 }
 
 .story__content {
-  padding: 150px 0;
+  padding: 25rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1783,7 +1778,7 @@ a:active {
 }
 
 .story__desc {
-  text-align: center;
+  text-align: justify;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
 }
@@ -1870,7 +1865,7 @@ a:active {
 
 .story__footer {
   position: absolute;
-  bottom: 0;
+  bottom: -5%;
   left: 51%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -2368,8 +2363,8 @@ min-width: 37.5em) / 600px UP
   aside--sections
 ----------------------------------------------- */
 .aside {
-  -ms-flex-preferred-size: 28%;
-      flex-basis: 28%;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
 }
 
 .aside--title {
@@ -2444,7 +2439,7 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 Stylesheet: 960px以上のモニタで適用
 
 ******************************************************************/
-  .mb-lg, .wrapper, .section-features {
+  .mb-lg, .wrapper, .section-story, .section-features {
     margin-bottom: 150px !important;
   }
   .pb-lg {

@@ -9,13 +9,17 @@
 
   &__li {
     position: relative;
-    flex-basis: calc((100% - 20px) / 2);
-    margin-right: 20px;
+    flex-basis: calc((100% - 0px) / 4);
+    // margin-right: 5px;
     display: flex;
+    align-content: center;
     flex-wrap: nowrap;
     justify-content: flex-start;
     padding-bottom: 10px;
     margin-bottom: 30px;
+    @include respondDown(phone) {
+      flex-basis: calc(100% / 2);
+    }
   }
 
   &__li::before {
@@ -51,7 +55,7 @@
   }
 
   &__text {
-    flex-basis: calc(100% - 210px);
+    // flex-basis: calc(100% - 210px);
     align-self: center;
     a {
       @extend .font-md;
