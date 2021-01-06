@@ -115,7 +115,7 @@
     data() {
       return {
         active: 0,
-        items: ["Category ⇒", "MOVIE", "CODING", "OTHER"],
+        items: ["Category", "MOVIE", "CODING", "OTHER"],
       };
     },
     methods: {
