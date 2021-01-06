@@ -29,7 +29,7 @@
             </div>
           </nuxt-link>
           <div class="topic__preview--share">
-            <a href="//twitter.com/share" data-text="work.fields.subtitle" data-url="work.fields.slug">
+            <a :href="'//twitter.com/share' + '/work/' + work.fields.slug">
               <svg width="16px" height="16px">
                 <use xlink:href="../assets/images/sprite.svg#icon-twitter"></use>
               </svg>

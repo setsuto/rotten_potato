@@ -23,14 +23,14 @@
 
 .section-story {
   // margin-top: 60px;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(to right bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(../images/story_bg.jpg);
-  background-position: bottom center;
+  // background-attachment: fixed;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-image: linear-gradient(to right bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(../images/story_bg.jpg);
+  // background-position: bottom center;
   position: relative;
-  @extend .mb-lg;
-  border-bottom: $borderShadow;
+  // @extend .mb-lg;
+  // border-bottom: $borderShadow;
 
 }
 

@@ -1,47 +1,8 @@
 <template>
   <div class="content-width">
-    
-    <section class="section-story">
-      <div class="story" id="story">
-        <div class="story__content">
-          <div class="story__desc">
-            <div class="story__title mb-md section">
-              <h2><span>Rotten&nbsp;<span class="highlight" style="color: white;">Potato</span></span></h2>
-            </div>
-            <p class="mb-md">
-              あなたの映画ライフを応援するブログです。<br>糞映画から良映画まで幅広く紹介します。<br>
-              ユニクロの新作・セール情報等も合せて更新予定です。<br>
-            </p>
-            <button class="btn slide-bg">BLOG</button>
-            <p v-on:mousemove="changeMousePosition(3, $event)">
-              or Discover our story
-            </p>
-          </div>
-          <div class="story__gallery">
-            <img srcset="../assets/images/about_movie_04.jpg 300w, ../assets/images/about_movie_04.jpg 1000w"
-              sizes="(max-width: 56.25em) 30vw, (max-width: 37.5em) 30vw, 300px" class="story__photo story__photo--1"
-              alt="about_movie_03.jpg" src="../assets/images/about_movie_04.jpg">
-
-            <img srcset="../assets/images/about_movie_03.jpg 300w, ../assets/images/about_movie_03.jpg 1000w"
-              sizes="(max-width: 56.25em) 30vw, (max-width: 37.5em) 30vw, 300px" class="story__photo story__photo--2"
-              alt="about_movie_03.jpg" src="../assets/images/about_movie_03.jpg">
-
-            <img srcset="../assets/images/about_movie_02.jpg 300w, ../assets/images/about_movie_02.jpg 1000w"
-              sizes="(max-width: 56.25em) 30vw, (max-width: 37.5em) 30vw, 300px" class="story__photo story__photo--3"
-              alt="about_movie_02.jpg" src="../assets/images/about_movie_04.jpg">
-          </div>
-        </div>
-        <div class="story__footer">
-          <img class="story__downarrow" src="../assets/images/SVG/arrow.svg" alt="../assets/images/SVG/arrow.svg">
-          <span class="story__scrolltext">scroll</span>
-        </div>
-      </div>
-    </section>
-
-
-
+ 
     <section class="section-about">
-      <div class="about ">
+      <div class="about">
         <div class="about__gallerys">
           <img src="../assets/images/about_profile.png" sizes="(max-width: 767px) 50vw, 10vw"
             srcset="../assets/images/about_profile.png 800w, ../assets/images/about_profile.png 844w" alt=""
