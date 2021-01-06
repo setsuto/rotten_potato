@@ -66,7 +66,7 @@
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text"><a href="/category/5o9xcRHEPa8Hnycmi0Vvtb" target="_black">ALL</a></p>
+          <p class="news__text"><a href="/category/5o9xcRHEPa8Hnycmi0Vvtb">ALL</a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
