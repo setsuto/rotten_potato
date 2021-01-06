@@ -1,10 +1,16 @@
+<style>
+
+</style>
+
+
 <template>
-  <section>
+<aside class="aside">
+  <section class="side-profile mb-md">
     <div class="flex" style="align-items:center;">
       <div class="bg-center bg-cover w-16 h-16 mr-5 rounded-full shadow photo"></div>
       <h1 class="font-bold">SETSUTO</h1>
     </div>
-    <p class="text-md text-justify mb-md leading-8">
+    <p class="text-md text-justify mb-sm leading-8">
       27歳フリーター、趣味はwebサイト制作と映画鑑賞。<br>Techpit、qiitaの記事を参考にしてJAMstackブログを作りました。<br>
     </p>
     <div class="search">
@@ -17,6 +23,7 @@
       </button>
     </div>
   </section>
+  </aside>
 </template>
 
 <script>

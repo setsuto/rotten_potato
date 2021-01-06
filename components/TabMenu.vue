@@ -36,21 +36,28 @@
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text"><a href="#">ALL</a></p>
+          <p class="news__text"><a href="/" target="_black">ALL</a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text"><a href="#">UNIQLO</a></p>
+          <p class="news__text"><a href="/" target="_black">NETFLIX</a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text"><a href="#">コラボ・セール</a></p>
+          <p class="news__text"><a href="/" target="_black">新作</a></p>
+        </li>
+        <li class="news__li">
+          <div class="news__date">
+            <span>2020.12</span>
+            <strong>20</strong>
+          </div>
+          <p class="news__text"><a href="/" target="_black">作品賞</a></p>
         </li>
       </ul>
       <ul class="news__ul tab-pane" v-show="active === 2">
@@ -59,18 +66,28 @@
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text">
-            <a href="/category/1UBtd4pij03W4imMtBAhU8" target="_black">HTML / CSS</a>
-          </p>
+          <p class="news__text"><a href="/category/5o9xcRHEPa8Hnycmi0Vvtb" target="_black">ALL</a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text">
-            <a href="/category/1UBtd4pij03W4imMtBAhU8" target="_black">Vue / Nuxt.js</a>
-          </p>
+          <p class="news__text"><a href="/tag/6Wqsg2l9pa7MMS1lYUea0F" target="_black">HTML / CSS</a></p>
+        </li>
+        <li class="news__li">
+          <div class="news__date">
+            <span>2020.12</span>
+            <strong>20</strong>
+          </div>
+          <p class="news__text"><a href="/" target="_black">Vue / Nuxt.js</a></p>
+        </li>
+        <li class="news__li">
+          <div class="news__date">
+            <span>2020.12</span>
+            <strong>20</strong>
+          </div>
+          <p class="news__text"><a href="/" target="_black">javascript</a></p>
         </li>
       </ul>
       <ul class="news__ul" v-show="active === 3">
@@ -79,28 +96,28 @@
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text"><a href="#">OTHER-TEXT</a></p>
+          <p class="news__text"><a href="/" target="_black">ALL</a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text"><a href="#">OTHER-TEXT</a></p>
+          <p class="news__text"><a href="/" target="_black">UNIQLO</a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text"><a href="#">OTHER-TEXT</a></p>
+          <p class="news__text"><a href="/" target="_black">宅配クーポン</a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
             <span>2020.12</span>
             <strong>20</strong>
           </div>
-          <p class="news__text"><a href="#">OTHER-TEXT</a></p>
+          <p class="news__text"><a href="/" target="_black">限定・コラボ商品情報</a></p>
         </li>
       </ul>
     </div>

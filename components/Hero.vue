@@ -2,34 +2,36 @@
   <div class="mb-md">
     <div class="hero__header">
       <div class="hero__header--title">
-        <!-- <span> AND ONE FLEW OVER THE CUCKOO'S NEST</span> -->
-        <span>Netflix Movies TOP3(2020)</span>
+                        <svg style="width:24px; height:24px;">
+                    <use xlink:href="../assets/images/sprite.svg#icon-tv"></use>
+                </svg>
+        <span class="ml-5">2020 Netflix Movies TOP3</span>
       </div>
     </div>
 
     <hooper :settings="hooperSettings">
       <slide>
-        <div class="hero__title">#2 Chicago 7</div>
-        <img src="../assets/images/hero-slider_03.jpg" alt="hero_movie_03" />
+                <div class="hero__title">#3 Mank</div>
+        <img src="../assets/images/hero-slider_04.png" alt="hero_movie_03" />
         <div class="hero__description">
-          <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81043755">(C)Netflix</a>
+          <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81117189">(C)Netflix</a>
+          </blockquote>
+        </div>
+ 
+      </slide>
+      <slide>
+        <div class="hero__title">#2 Ma Rainey's Black Bottom</div>
+        <img src="../assets/images/hero-slider_02.png" alt="hero_movie_02" />
+        <div class="hero__description">
+          <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81100780">(C)Netflix</a>
           </blockquote>
         </div>
       </slide>
       <slide>
-        <div class="hero__title">#1 Ma Rainey's Black Bottom</div>
-        <img src="../assets/images/hero-slider_02.png" alt="hero_movie_02" />
+       <div class="hero__title">#1 Chicago 7</div>
+        <img src="../assets/images/hero-slider_03.jpg" alt="hero_movie_03" />
         <div class="hero__description">
-          <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81100780">(C)Netflix</a></blockquote>
-        </div>
-      </slide>
-      <slide>
-                <div class="hero__title">#3 The Midnight Sky</div>
-        <img src="../assets/images/hero-slider_01.jpg" alt="hero_movie_03" />
-
-        <div class="hero__description">
-
-                    <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/80244645">(C)Netflix</a>
+          <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81043755">(C)Netflix</a>
           </blockquote>
         </div>
       </slide>
@@ -45,8 +47,9 @@
     height: 50px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.9);
-    box-shadow: 1px 4px 10px 0 rgba(42,44,50,.16);
+    box-shadow: 1px 4px 10px 0 rgba(42, 44, 50, .16);
   }
+
 </style>
 
 <script>
@@ -74,4 +77,5 @@
       }
     },
   };
+
 </script>

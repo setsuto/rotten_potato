@@ -18,9 +18,7 @@
         </section>
       </article>
 
-      <aside class="aside">
         <SideProfile></SideProfile>
-      </aside>
     </div>
 
 
@@ -41,6 +39,9 @@
   const client = createClient()
   
   export default {
+    data() {
+            count: 20
+    },
     components: {
       Hero,
       TabMenu,

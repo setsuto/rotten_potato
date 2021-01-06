@@ -54,7 +54,9 @@
 
 .hero__header {
   padding: 20px 0;
-  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 .hero__header--icon {
@@ -74,9 +76,8 @@
 }
 
 .hero__header--title {
-  flex: 1;
-  text-transform: uppercase;
-
+  display: flex;
+  align-content: center;
   span {
     @extend .font-lr;
   }
