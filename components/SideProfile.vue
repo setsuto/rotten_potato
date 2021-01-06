@@ -5,10 +5,6 @@
 
 <template>
   <aside class="aside">
-
-
-
-
     <section class="section-story">
       <div class="story" id="story">
         <div class="story__content">
@@ -43,7 +39,7 @@
         </div> -->
     </section>
  
-       <section class="side-profile mb-md">
+       <section class="side-profile mb-md sticky top-0">
       <div class="flex" style="align-items:center;">
         <div class="bg-center bg-cover w-16 h-16 mr-5 rounded-full shadow photo"></div>
         <h1 class="">SETSUTO</h1>
