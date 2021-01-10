@@ -27,9 +27,9 @@
               alt="about_movie_02.jpg" src="../assets/images/about_movie_04.jpg">
           </div>
           <p class="mb-sm">
-            あなたの映画ライフを応援するブログです。<br>糞映画から良映画まで幅広く紹介します。
+            あなたの映画ライフを応援するブログです。
           </p>
-          <button class="btn slide-bg">ABOUT</button>
+          <button class="btn slide-bg"><a href="/About">ABOUT</a></button>
 
         </div>
       </div>
@@ -45,7 +45,7 @@
         <h1 class="">SETSUTO</h1>
       </div>
       <p class="text-md text-justify mb-sm leading-8">
-        27歳フリーター、趣味はwebサイト制作と映画鑑賞。<br>Techpit、qiitaの記事を参考にしてJAMstackブログを作りました。<br>
+        27歳フリーター、趣味はwebサイト制作と映画鑑賞。<br>Techpit、qiitaの記事を参考にしてJAMstackなブログを作りました。<br>
       </p>
       <div class="search">
         <input type="text" class="search__input" placeholder="Search" v-model="keyword"

@@ -1,14 +1,13 @@
 .section-title {
     font-size: 3rem;
-    font-weight: normal;
 }
 
 .heading-primary {
   @extend .font-lg;
   display: inline-block;
-  // background-image: linear-gradient(to right, #7ed56f, #28b485);
-  // -webkit-background-clip: text;
-  // color: transparent;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  color: transparent;
   letter-spacing: .2rem;
   text-transform: uppercase;
 }

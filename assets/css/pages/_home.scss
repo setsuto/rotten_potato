@@ -36,13 +36,14 @@
 
 .section-features {
   color: $cWhite;
-  margin-top: -8vh;
+  // margin-top: -8vh;
   position: relative;
   @extend .mb-lg;
 
 }
 
 .section-about {
+  margin-top: 30px;
   background: $cWhite;
   // @extend .mb-lg;
 }
@@ -53,6 +54,14 @@
   @extend .content-width;
   margin-bottom: 150px;
   color: $cBlack;
+}
+
+.section-form {
+  height: calc(100vh - 116px);
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 /* --------------------------------------------

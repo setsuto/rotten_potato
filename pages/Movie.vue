@@ -1,16 +1,14 @@
 <template>
-<div>
-  <magic-grid class="posts-list">
-    <div v-for="movie in movies" :key="movie.id" class="posts-item nes-container with-title is-centered">
-      <img :src="'http://image.tmdb.org/t/p/w300/' + movie.poster_path">
-      <p class="posts__title">{{ movie.title }}</p>
-      <p class="posts__date">{{ movie.release_date }}</p>
-      <p class="posts__overview">{{ movie.overview }}</p>
-    </div>
-  </magic-grid>
-
-</div>
-
+  <div>
+    <magic-grid class="posts-list">
+      <div v-for="movie in movies" :key="movie.id" class="posts-item nes-container with-title is-centered">
+        <img :src="'http://image.tmdb.org/t/p/w300/' + movie.poster_path">
+        <p class="posts__title">{{ movie.title }}</p>
+        <p class="posts__date">{{ movie.release_date }}</p>
+        <p class="posts__overview">{{ movie.overview }}</p>
+      </div>
+    </magic-grid>
+  </div>
 </template>
 
 <script>
@@ -39,6 +37,7 @@
       this.getMovies();
     }
   }
+
 </script>
 
 
@@ -56,4 +55,5 @@
     font-size: 1.2rem;
     margin-bottom: 10px;
   }
+
 </style>

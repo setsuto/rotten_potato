@@ -39,7 +39,8 @@ export default {
   plugins: [
     { src: '~plugins/font-awesome', ssr: false },
     { src: '~plugins/magicgrid', ssr: false},
-    { src: '~/plugins/infiniteloading', ssr: false },
+    { src: '~plugins/infiniteloading', ssr: false },
+    { src: '~plugins/vee-validate', ssr: false },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
