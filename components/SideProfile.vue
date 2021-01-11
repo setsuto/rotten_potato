@@ -27,7 +27,7 @@
               alt="about_movie_02.jpg" src="../assets/images/about_movie_04.jpg">
           </div>
           <p class="mb-sm">
-            あなたの映画ライフを応援するブログです。
+            あなたの映画ライフを応援します。
           </p>
           <button class="btn slide-bg"><a href="/About">ABOUT</a></button>
 

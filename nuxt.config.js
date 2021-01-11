@@ -9,7 +9,6 @@ const client = contentful.createClient({
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  mode: 'spa',
 
   loading: '~/components/Loading.vue',
 
