@@ -1,20 +1,29 @@
 # rotten_potato
 
-## Build Setup
+## サイト概要
 
-```bash
-# install dependencies
-$ npm install
+個人的なブログを作成しました。
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+映画が好きなので映画の紹介と自身のフロントエンド学習の備忘録として使っています。
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+## 作成フロー
 
-# generate static project
-$ npm run generate
-```
+①HTML/CSS/SASSを使いマークアップを作成。
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+②CMS（contenful）でブログのカテゴリー、タグ、記事等のデータを登録・作成。
+
+③Nuxt.jsを使いcontenfulで登録したデータ（API）を取得、①で作成したHTMLに表示を行いました
+
+参考記事：https://www.contentful.com/developers/docs/javascript/tutorials/integrate-contentful-with-vue-and-nuxt/
+
+④Netlifyというサービスを用いてWEBに公開、GitHubへのpushをトリガーとしてサイトを自動更新するように設定しています。
+
+
+## 使用技術
+・Nuxt.js
+
+・contentful
+
+・Netlify
+
+・GitHub
