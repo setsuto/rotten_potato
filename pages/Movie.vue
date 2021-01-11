@@ -2,7 +2,9 @@
   <div>
     <magic-grid class="posts-list">
       <div v-for="movie in movies" :key="movie.id" class="posts-item nes-container with-title is-centered">
-        <img :src="'http://image.tmdb.org/t/p/w300/' + movie.poster_path">
+        <a class="posts__link" href="#">
+          <img :src="'http://image.tmdb.org/t/p/w300/' + movie.poster_path">
+        </a>
         <p class="posts__title">{{ movie.title }}</p>
         <p class="posts__date">{{ movie.release_date }}</p>
         <p class="posts__overview">{{ movie.overview }}</p>
@@ -42,6 +44,19 @@
 
 
 <style>
+  .posts__link {
+    display: block;
+    width: 300px;
+    height: 400px;
+  }
+
+  .posts__link img {
+    object-position: top;
+    object-fit: cover;
+    widows: 100%;
+    height: 100%;
+  }
+
   .posts__title {
     font-size: 2.4rem;
     margin-bottom: 10px;
