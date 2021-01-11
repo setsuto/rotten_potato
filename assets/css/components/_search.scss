@@ -16,7 +16,6 @@
   }
 
   &__input {
-      margin-top: 10px;
     width: 100%;
     font-size: 16px;
     background: $cBgGray;
@@ -42,6 +41,7 @@
   &__btn {
     font-size: 1rem;
     position: absolute;
+    top: 5px;
     right: 3%;
     cursor: pointer;
     border: none;

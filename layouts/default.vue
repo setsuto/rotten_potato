@@ -49,6 +49,7 @@
 <script>
   import Header from "@/layouts/Header"
   import Footer from "@/layouts/Footer"
+  import Loading from "@/components/Loading"
 
   export default {
     name: 'App',
@@ -61,12 +62,19 @@
     components: {
       Header,
       Footer,
+      Loading
     },
     methods: {
       incrementNumber(value) {
         this.number = value
       }
-    }
+    },
+    mounted() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish())
+      })
+    },
   }
 
 </script>

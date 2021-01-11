@@ -7,117 +7,81 @@
     </ul>
     <div class="tab-content">
       <ul class="news__ul tab-pane" v-show="active === 1">
-        <!-- <li class="news__li">
-          <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
-          </div>
-          <p class="news__text"><a href="#">ALL</a></p>
-        </li>
-        <li class="news__li">
-          <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
-          </div>
-          <p class="news__text"><a href="#">NETFLIX</a></p>
-        </li>
-        <li class="news__li">
-          <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
-          </div>
-          <p class="news__text"><a href="#">amazonPrime</a></p>
-        </li> -->
       </ul>
-
       <ul class="news__ul tab-pane" v-show="active === 1">
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>01</strong>
           </div>
-          <p class="news__text"><a href="/" target="_black">ALL</a></p>
+          <p class="news__text"><a href="/" target="_black"><s>ALL</s></a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>02</strong>
           </div>
-          <p class="news__text"><a href="/" target="_black">NETFLIX</a></p>
+          <p class="news__text"><a href="/"><s>NETFLIX</s></a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>03</strong>
           </div>
-          <p class="news__text"><a href="/" target="_black">新作</a></p>
+          <p class="news__text"><a href="/"><s>amazonPrime</s></a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>04</strong>
           </div>
-          <p class="news__text"><a href="/" target="_black">作品賞</a></p>
+          <p class="news__text"><a href="/"><s>アカデミー賞</s></a></p>
         </li>
       </ul>
       <ul class="news__ul tab-pane" v-show="active === 2">
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>01</strong>
           </div>
           <p class="news__text"><a href="/category/5o9xcRHEPa8Hnycmi0Vvtb">ALL</a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>02</strong>
           </div>
-          <p class="news__text"><a href="/tag/6Wqsg2l9pa7MMS1lYUea0F" target="_black">HTML / CSS</a></p>
+          <p class="news__text"><a href="/tag/6Wqsg2l9pa7MMS1lYUea0F">HTML / CSS</a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>03</strong>
           </div>
-          <p class="news__text"><a href="/" target="_black">Vue / Nuxt.js</a></p>
+          <p class="news__text"><a href="/"><s>Vue / Nuxt.js</s></a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>04</strong>
           </div>
-          <p class="news__text"><a href="/" target="_black">javascript</a></p>
+          <p class="news__text"><a href="/"><s>javascript</s></a></p>
         </li>
       </ul>
       <ul class="news__ul" v-show="active === 3">
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>01</strong>
           </div>
-          <p class="news__text"><a href="/" target="_black">ALL</a></p>
+          <p class="news__text"><a href="/" target="_black"><s>ALL</s></a></p>
         </li>
         <li class="news__li">
           <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
+            <!-- <span>2020.12</span> -->
+            <strong>02</strong>
           </div>
-          <p class="news__text"><a href="/" target="_black">UNIQLO</a></p>
-        </li>
-        <li class="news__li">
-          <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
-          </div>
-          <p class="news__text"><a href="/" target="_black">宅配クーポン</a></p>
-        </li>
-        <li class="news__li">
-          <div class="news__date">
-            <span>2020.12</span>
-            <strong>20</strong>
-          </div>
-          <p class="news__text"><a href="/" target="_black">限定・コラボ商品情報</a></p>
+          <p class="news__text"><a href="/" target="_black"><s>UNIQLO</s></a></p>
         </li>
       </ul>
     </div>

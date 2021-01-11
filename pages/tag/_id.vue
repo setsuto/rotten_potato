@@ -1,5 +1,8 @@
+
+
 <template>
   <div class="content-width">
+    <TabMenu></TabMenu>
     <Item 
       v-for="work in works" 
       :key="work.sys.id"
@@ -10,11 +13,13 @@
 
 <script>
 import Item from '@/components/Item'
+import TabMenu from '@/components/TabMenu'
 import { createClient } from '~/plugins/contentful.js'
 const client = createClient()
 export default {
   components: {
-    Item
+    Item,
+    TabMenu
   },
   asyncData ({params}) {
     return Promise.all([

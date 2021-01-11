@@ -27,7 +27,7 @@
           <h4 class="features__box--heading">GIT</h4>
           <p class="features__box--paragraph">
            主にvscodeのターミナルを使って操作しています。<br>
-           GITの基本的なコマンド、GIFLOWを理解しているつもりです。
+           GITの基本的なコマンド、GITFLOWを理解しているつもりです。
           </p>
         </div>
         <div class="features__box">
@@ -43,7 +43,7 @@
           <h4 class="features__box--heading">OTHER</h4>
           <p class="features__box--paragraph">
             photoshopを使った簡単な切り抜き、塗りつぶし、拡張子の変更といった作業ができます。
-            また、linuxの基本的なコマンドを理解しています。
+            また、linuxの基本的なコマンド、ディレクトリ構造についておおよそ理解しています。
           </p>
         </div>
       </div>

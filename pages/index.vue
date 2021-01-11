@@ -11,10 +11,6 @@
         <section class="section-topic ">
           <h2 class="section-title mb-md under-line">Recent</h2>
           <Item v-for="work in works" :key="work.sys.id" :work="work"></Item>
-          <infinite-loading ref="infiniteLoading" spinner="spiral" @infinite="infiniteHandler">
-            <span slot="no-more">no more</span>
-            <span slot="no-results">no more results</span>
-          </infinite-loading>
         </section>
       </article>
 
@@ -60,18 +56,6 @@
         }
       }).catch(console.error)
     },
-    methods: {
-      infiniteHandler() {
-        setTimeout(() => {
-          if (this.count < 100) {
-            this.count += 20
-            this.$refs.infiniteLoading.stateChanger.loaded()
-          } else {
-            this.$refs.infiniteLoading.stateChanger.complete()
-          }
-        }, 1000)
-      }
-    }
   }
 
 </script>

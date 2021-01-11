@@ -875,7 +875,6 @@ a:active {
 }
 
 .search__input {
-  margin-top: 10px;
   width: 100%;
   font-size: 16px;
   background: #eaebe6;
@@ -899,6 +898,7 @@ a:active {
 .search__btn {
   font-size: 1rem;
   position: absolute;
+  top: 5px;
   right: 3%;
   cursor: pointer;
   border: none;
@@ -1901,8 +1901,6 @@ a:active {
       -ms-flex-direction: row;
           flex-direction: row;
   padding: 8rem 0;
-  max-width: 1000px;
-  margin: 0 auto;
   background: white;
   position: relative;
   background: #222222;
@@ -2280,7 +2278,6 @@ min-width: 37.5em) / 600px UP
 }
 
 .section-about {
-  margin-top: 30px;
   background: white;
 }
 

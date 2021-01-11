@@ -12,7 +12,7 @@
     <hooper :settings="hooperSettings">
       <slide>
                 <div class="hero__title">#3 Mank</div>
-        <img src="../assets/images/hero-slider_04.png" alt="hero_movie_03" />
+        <img src="../assets/images/about_movie_03.jpg" alt="hero_movie_03" />
         <div class="hero__description">
           <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81117189">(C)Netflix</a>
           </blockquote>
@@ -21,7 +21,7 @@
       </slide>
       <slide>
         <div class="hero__title">#2 Ma Rainey's Black Bottom</div>
-        <img src="../assets/images/hero-slider_02.png" alt="hero_movie_02" />
+        <img src="../assets/images/about_movie_03.jpg" alt="hero_movie_02" />
         <div class="hero__description">
           <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81100780">(C)Netflix</a>
           </blockquote>
@@ -29,7 +29,7 @@
       </slide>
       <slide>
        <div class="hero__title">#1 Chicago 7</div>
-        <img src="../assets/images/hero-slider_03.jpg" alt="hero_movie_03" />
+        <img src="../assets/images/about_movie_03.jpg" alt="hero_movie_03" />
         <div class="hero__description">
           <blockquote>出典：作品ポスター・画像&nbsp;<a target="_blank" href="https://www.netflix.com/title/81043755">(C)Netflix</a>
           </blockquote>
