@@ -8,9 +8,6 @@
               <a href="/" class="header__link" @click="currentComponent = 'Index'">HOME</a>
             </li>
             <li class="header__li">
-              <a href="/About" class="header__link" @click="currentComponent = 'About'">ABOUT</a>
-            </li>
-            <li class="header__li">
               <a href="/Movie" class="header__link" @click="currentComponent = 'Movie'">Flilms(2020)</a>
             </li>
             <li class="header__li">
@@ -24,8 +21,6 @@
         <nav class="gnav__content">
           <ul class="gnav__list">
             <li class="gnav__item"><a href="/" class="gnav__link" @click="currentComponent = 'Home'">HOME</a></li>
-            <li class="gnav__item"><a href="/About" class="gnav__link" @click="currentComponent = 'About'">ABOUT</a>
-            </li>
             <li class="gnav__item"><a href="/Movie" class="gnav__link" @click="currentComponent = 'Movie'">MOVIE</a>
             </li>
             <li class="gnav__item"><a href="/Form" class="gnav__link" @click="currentComponent = 'Form'">CONTACT</a>
@@ -35,13 +30,6 @@
       </template>
     </Header>
     <nuxt />
-              <!-- <infinite-loading ref="infiniteLoading" spinner="spiral" @infinite="infiniteHandler">
-            <span slot="no-more">no more</span>
-            <span slot="no-results">no more results</span>
-          </infinite-loading> -->
-    <!-- <keep-alive> -->
-    <!-- <component :is="currentComponent"></component> -->
-    <!-- </keep-alive> -->
     <Footer></Footer>
   </div>
 </template>
@@ -49,40 +37,12 @@
 <script>
   import Header from "@/layouts/Header"
   import Footer from "@/layouts/Footer"
-  import Loading from "@/components/Loading"
 
   export default {
     name: 'App',
-    data() {
-      return {
-        keyword: '',
-        // currentComponent: 'default',
-      };
-    },
     components: {
       Header,
       Footer,
-      Loading
-    },
-    methods: {
-      incrementNumber(value) {
-        this.number = value
-      }
-    },
-    mounted() {
-    this.$nextTick(() => {
-      this.$nuxt.$loading.start()
-      setTimeout(() => this.$nuxt.$loading.finish())
-      })
     },
   }
-
 </script>
-
-
-
-<style>
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
-  @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-
-</style>

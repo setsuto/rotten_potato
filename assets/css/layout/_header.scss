@@ -1,11 +1,9 @@
 .header {
-  position: relative;
-  // height: 100%;
+  position: fixed;
   width: 100%;
   z-index: 1000;
   background: $cWhite;
   border-bottom: 1px solid $cGray;
-  // @extend .mb-lg;
 
   &__container {
     height: 60px;

@@ -29,17 +29,11 @@
           <p class="mb-sm">
             あなたの映画ライフを応援します。
           </p>
-          <button class="btn slide-bg"><a href="/About">ABOUT</a></button>
-
         </div>
       </div>
-      <!-- <div class="story__footer">
-          <img class="story__downarrow" src="../assets/images/SVG/arrow.svg" alt="../assets/images/SVG/arrow.svg">
-          <span class="story__scrolltext">scroll</span>
-        </div> -->
     </section>
- 
-       <section class="side-profile mb-md sticky top-0">
+
+    <section class="side-profile mb-md sticky top-0">
       <div class="flex" style="align-items:center;">
         <div class="bg-center bg-cover w-16 h-16 mr-5 rounded-full shadow photo"></div>
         <h1 class="">SETSUTO</h1>
