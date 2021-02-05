@@ -15,6 +15,7 @@
       </article>
 
         <SideProfile></SideProfile>
+        <!-- side -->
     </div>
 
 
