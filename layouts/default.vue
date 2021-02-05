@@ -10,9 +10,6 @@
             <li class="header__li">
               <a href="/Movie" class="header__link" @click="currentComponent = 'Movie'">Flilms(2020)</a>
             </li>
-            <li class="header__li">
-              <a href="/Form" class="header__link" @click="currentComponent = 'Form'">CONTACT</a>
-            </li>
           </ul>
         </nav>
       </template>

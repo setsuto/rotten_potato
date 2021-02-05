@@ -9,44 +9,14 @@
 
 @import "components/btn";
 @import "components/search";
-@import "components/about";
-@import "components/category";
-@import "components/sidebar-sale";
-@import "components/sidebar-category";
 @import "components/topic";
 @import "components/news";
 @import "components/hero-slider";
-@import "components/modal";
 @import "components/tab-menu";
 @import "components/story";
-@import "components/features";
 
 @import "layout/header";
 @import "layout/footer";
 @import "layout/gnav";
 
 @import "pages/home";
-
-
-
-@import "breakpoints/base";
-
-@media (min-width: 400px) {
-  @import "breakpoints/480up";
-}
-
-@media (min-width: 600px) {
-  @import "breakpoints/600up";
-}
-
-@media (min-width: 900px) {
-  @import "breakpoints/960up";
-}
-
-@media (min-width: 1200px) {
-  @import "breakpoints/1280up";
-}
-
-@media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
-  @import "breakpoints/2x";
-}
